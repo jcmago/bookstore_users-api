@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import ("github.com/jcmago/bookstore_users-api/app")
 
 func main() {
-  fmt.Println("Users")
+	app.StartApplication()
 }
